@@ -1,9 +1,7 @@
 package codes0331.Set2Map;
 
-public class Set2MapTest
-{
-    public static void main(String[] args)
-    {
+public class Set2MapTest {
+    public static void main(String[] args) {
         Set2Map<String, Integer> scores = new Set2Map<String, Integer>();
         scores.put("语文", 89);
         scores.put("数学", 83);

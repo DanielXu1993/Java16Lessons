@@ -1,22 +1,19 @@
 package codes0777.NullInvocation;
-class Animal
-{
-    public static void info()
-    {
+
+class Animal {
+    public static void info() {
         System.out.println("Animal的info方法");
     }
 }
-class Wolf extends Animal
-{
-    public static void info()
-    {
+
+class Wolf extends Animal {
+    public static void info() {
         System.out.println("Wolf的info方法");
     }
 }
-public class NullInvocation
-{
-    public static void main(String[] args)
-    {
+
+public class NullInvocation {
+    public static void main(String[] args) {
         // 该静态方法属于Animal类而不是Animal对象
         // 即使变量a1是null，依然可以调用它的静态方法
         Animal a1 = null;

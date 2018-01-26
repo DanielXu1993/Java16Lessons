@@ -1,9 +1,7 @@
 package codes10101.LinkStack;
 
-public class LinkStackTest
-{
-    public static void main(String[] args)
-    {
+public class LinkStackTest {
+    public static void main(String[] args) {
         LinkStack<String> stack = new LinkStack<String>("aaaa");
         stack.push("bbbb");
         stack.push("cccc");
@@ -19,7 +17,7 @@ public class LinkStackTest
         System.out.println(stack);
         stack.pop();
         System.out.println(stack);
-        stack.pop();
+        stack.clear();
         System.out.println(stack);
     }
 }

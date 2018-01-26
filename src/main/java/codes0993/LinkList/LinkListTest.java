@@ -1,9 +1,7 @@
 package codes0993.LinkList;
 
-public class LinkListTest
-{
-    public static void main(String[] args)
-    {
+public class LinkListTest {
+    public static void main(String[] args) {
         LinkList<String> list = new LinkList<String>();
         list.insert("aaa", 0);
         list.add("bbbb");

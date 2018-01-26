@@ -1,9 +1,7 @@
 package codes0992.SequenceList;
 
-public class SequenceListTest
-{
-    public static void main(String[] args)
-    {
+public class SequenceListTest {
+    public static void main(String[] args) {
         SequenceList<String> list = new SequenceList<String>();
         list.add("aaaa");
         list.add("bbbb");

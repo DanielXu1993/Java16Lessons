@@ -1,18 +1,15 @@
 package codes02.staticInitTest;
 
-class Count
-{
+class Count {
     static int count = 2;
-    static
-    {
+
+    static {
         count = 3;
     }
 }
 
-public class StaticInitTest
-{
-    public static void main(String[] args)
-    {
+public class StaticInitTest {
+    public static void main(String[] args) {
         System.out.println(Count.count);
     }
 }

@@ -1,21 +1,17 @@
 package codes0774.OverrideTest;
 
-public class OverrideTest
-{
-    public void info(Object obj, double count)
-    {
+public class OverrideTest {
+    public void info(Object obj, double count) {
         System.out.println("参数为Object,Obj参数为：" + obj);
         System.out.println("参数为Object,count参数为：" + count);
     }
 
-    public void info(Object[] objs, double count)
-    {
+    public void info(Object[] objs, double count) {
         System.out.println("参数为Object[],objs参数为：" + objs);
         System.out.println("参数为Object[],count参数为：" + count);
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         OverrideTest test = new OverrideTest();
         // null 能够匹配Object和Object[]
         // Object[]可以看成是Object的子类，参数Object[]能匹配的更加精确
