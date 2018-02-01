@@ -1,4 +1,4 @@
-package codes12122.SelectSort;
+package codes12122.Sort;
 
 import java.util.Arrays;
 

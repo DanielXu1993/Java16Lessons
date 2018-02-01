@@ -1,4 +1,4 @@
-package codes12122.SelectSort;
+package codes12122.Sort;
 
 // 定义一个数据包装类，一个类的实例表示一个要排序的数据元素
 public class DataWrap implements Comparable<DataWrap> {
