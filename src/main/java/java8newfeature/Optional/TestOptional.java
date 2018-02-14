@@ -1,6 +1,6 @@
 package java8newfeature.Optional;
 
-import lambda.Employee;
+import java8newfeature.lambda.Employee;
 import org.junit.Test;
 
 import java.util.Optional;

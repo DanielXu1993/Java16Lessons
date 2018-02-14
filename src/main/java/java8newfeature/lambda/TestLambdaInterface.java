@@ -1,4 +1,4 @@
-package lambda;
+package java8newfeature.lambda;
 
 /**
  * 如果一个接口只有一个抽象方法（包括从父接口中继承来的），该接口是一个函数式接口，可以使用Lambda表达式来实现

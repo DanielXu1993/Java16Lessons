@@ -1,4 +1,4 @@
-package lambda;
+package java8newfeature.lambda;
 
 @FunctionalInterface
 interface LambdaReturn {
