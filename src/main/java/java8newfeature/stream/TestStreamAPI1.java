@@ -1,4 +1,4 @@
-package stream;
+package java8newfeature.stream;
 
 import java8newfeature.lambda.Employee;
 import org.junit.Test;
